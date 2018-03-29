@@ -268,19 +268,24 @@
 								<p class="text-white">Contattaci per qualsiasi domanda, saremo felici di risponderti</p>
 								<form method="post" action="/script/mail-script.js" novalidate>
 									<div class="mt-10">
-										<input type="text" name="first_name" placeholder="Nome" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nome'" required class="single-input">
+										<input type="text" name="first_name" placeholder="Nome" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nome'" required data-validation-required-message="Inserisci nome" class="single-input">
+										<p class="help-block text-danger"></p>
 									</div>
 									<div class="mt-10">
-										<input type="text" name="last_name" placeholder="Cognome" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Cognome'" required class="single-input">
+										<input type="text" name="last_name" placeholder="Cognome" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Cognome'" required data-validation-required-message="Inserisci cognome" class="single-input">
+										<p class="help-block text-danger"></p>
 									</div>
 									<div class="mt-10">
-										<input type="email" name="EMAIL" placeholder="Indirizzo email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Indiizzo email'" required class="single-input">
+										<input type="email" name="EMAIL" placeholder="Indirizzo email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Indiizzo email'" required data-validation-required-message="Inserisci indirizzo mail valido" class="single-input">
+										<p class="help-block text-danger"></p>
 									</div>									
 									<div class="mt-10">
-										<textarea class="single-textarea" placeholder="Messaggio" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messaggio'" required></textarea>
+										<textarea class="single-textarea" placeholder="Messaggio" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messaggio'" required data-validation-required-message="Inserisci un messaggio"></textarea>
+										<p class="help-block text-danger"></p>
 									</div>
 									<div class="button-group-area mt-10">
 										<button type="submit" class="genric-btn primary circle ">Invia</button>
+										<p class="help-block text-danger"></p>
 									</div>
 									<!-- For Gradient Border Use -->
 									<!-- <div class="mt-10">
