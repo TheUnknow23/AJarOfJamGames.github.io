@@ -35,7 +35,7 @@
 			    <div class="container">
 			    	<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="index.html"><img src="img/lOGO_PIXEL_ART.png" alt="" title="" /></a>
+				        <a href="index.html"><img src="img/logo_senza_bolla.png" alt="" title="" /></a>
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
@@ -266,13 +266,9 @@
 							<div class="title text-center">
 								<h1 class="mb-10 text-white">Hai delle domande? Contattaci!</h1>
 								<p class="text-white">Contattaci per qualsiasi domanda, saremo felici di risponderti</p>
-								<form method="post" action="/script/mail-script.js" novalidate>
+								<form method="post" action="mail.php" novalidate>
 									<div class="mt-10">
-										<input type="text" name="first_name" placeholder="Nome" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nome'" required data-validation-required-message="Inserisci nome" class="single-input">
-										<p class="help-block text-danger"></p>
-									</div>
-									<div class="mt-10">
-										<input type="text" name="last_name" placeholder="Cognome" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Cognome'" required data-validation-required-message="Inserisci cognome" class="single-input">
+										<input type="text" name="first_name" placeholder="Nome e cognome" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nome e cognome'" required data-validation-required-message="Inserisci nome e cognome" class="single-input">
 										<p class="help-block text-danger"></p>
 									</div>
 									<div class="mt-10">
@@ -287,13 +283,6 @@
 										<button type="submit" class="genric-btn primary circle ">Invia</button>
 										<p class="help-block text-danger"></p>
 									</div>
-									<!-- For Gradient Border Use -->
-									<!-- <div class="mt-10">
-										<div class="primary-input">
-											<input id="primary-input" type="text" name="first_name" placeholder="Primary color" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Primary color'">
-											<label for="primary-input"></label>
-										</div>
-									</div> -->
 								</form>
 							</div>
 						</div>
