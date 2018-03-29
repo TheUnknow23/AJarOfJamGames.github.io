@@ -257,7 +257,7 @@
 			</section>
 			<!-- End protfolio Area -->			
 
-			<!-- Start callto-action Area -->
+			<!-- Start Contatti Area -->
 			<section class="callto-action-area relative section-gap" id="contact">
 				<div class="overlay overlay-bg"></div>	
 				<div class="container">
@@ -266,22 +266,21 @@
 							<div class="title text-center">
 								<h1 class="mb-10 text-white">Hai delle domande? Contattaci!</h1>
 								<p class="text-white">Contattaci per qualsiasi domanda, saremo felici di risponderti</p>
-								<form method="post" action="mail.php" novalidate>
-									<div class="mt-10">
+								<form target="_blank" method="post" action="mail.php">
+									<div class="form-group">
 										<input type="text" name="first_name" placeholder="Nome e cognome" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nome e cognome'" required data-validation-required-message="Inserisci nome e cognome" class="single-input">
 										<p class="help-block text-danger"></p>
 									</div>
-									<div class="mt-10">
+									<div class="form-group">
 										<input type="email" name="EMAIL" placeholder="Indirizzo email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Indiizzo email'" required data-validation-required-message="Inserisci indirizzo mail valido" class="single-input">
 										<p class="help-block text-danger"></p>
 									</div>									
-									<div class="mt-10">
+									<div class="form-group">
 										<textarea class="single-textarea" placeholder="Messaggio" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messaggio'" required data-validation-required-message="Inserisci un messaggio"></textarea>
 										<p class="help-block text-danger"></p>
 									</div>
 									<div class="button-group-area mt-10">
-										<button type="submit" class="genric-btn primary circle ">Invia</button>
-										<p class="help-block text-danger"></p>
+										<button type="submit" class="genric-btn primary circle">Invia</button>
 									</div>
 								</form>
 							</div>
